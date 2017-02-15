@@ -1,0 +1,37 @@
+{
+	"name":"rsclg/club-base",
+	"description":"Provides some club specific base preferences and functions.",
+	"keywords":["contao", "club"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Cliff Parnitzky",
+			"email":"contao@cliff-parnitzky.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@cliff-parnitzky.de",
+		"issues":"https://github.com/rsclg/RscClubBase/issues",
+		"source":"https://github.com/rsclg/RscClubBase"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.2.0,<3.6",
+		"contao-community-alliance/composer-plugin":"~2.0"
+	},
+	"conflict": {
+		"contao/core":"3.4.0,3.4.1,3.4.2"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/RscClubBase":"system/modules/RscClubBase"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
